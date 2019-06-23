@@ -1,0 +1,77 @@
+*Load model :
+-check format of model (export new format or change cVAOManager.cpp code)
+	-sModelDrawInfo
+	::g_pVAOManager->LoadModelIntoVAO
+-Add Object to the scene   cMeshObject* (change name and orientation: glm::radians(90.0f) , scale...) 
+*Change Object color:
+-in LoadTheModels.cpp file change ->diffuseColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
+
+*Move camera target: g_cameraTarget.x, y ,x  
+-run,set break point,save location, set new cordinator  glm::vec3 g_cameraEye
+							glm::vec3 g_cameraTarget
+*Change light Color
+- ::g_pLightManager->veclights[1].diffuse = glm::vec4(0.0f, 191.0f/255.0f, 1.0f, 1.0f)
+*Direction of the light 
+this->direction = glm::vec4(0.0f,-1.0f,0.0f,1.0f)
+*Set light type
+::g_pLightManager->vecLights[0].SetLightType(sLight::SPOT_LIGHT);
+
+Key shorcut :
+W,S : Far near
+A,D : Rotate Y
+Q,E : Rotate X
+                Y
+		|
+	   X---------
+		|
+Hold shift:
+1,2 change attenuation y linear
+3,4 change attenuation z quad
+-+  turn on/off light
+5   -angle
+6   +angle
+0,9 change another light
+L,K show/hide debugsphere
+
+Hold alt: move camera target
+
+* set the light inside the object
+::g_pLightManager->vecLights[5].position = 
+         glm::vec4 (pFindObjectByName("bullet1")->pos,1.0f);
+
+KeyBoard control:
+
+		*Change view :
+			Press C for view 1, N for view 2, M for view 3
+
+		*Move camera:
+			W,S : Rotate Z
+			A,D : Rotate Y
+			Q,E : Rotate X
+
+		*Modify current Object (Default is the red car in the center of the scene)
+			J,L : Move Object throught X axis
+			I,K : Move Object throught Z axis
+			U,O : Move Object throught Y axis
+			Z,X : Scale Object
+			G   : Change Object to wireframe/solid
+
+		*Hold ALT: move camera target
+			W,S : Rotate Z
+			A,D : Rotate Y
+			Q,E : Rotate X
+
+		*Hold SHIFT: move light, change light attibute, select light , change light color
+			W,S : Move light throught Z axis
+			A,D : Move light throught Y axis
+			Q,E : Move light throught X axis
+			1,2 change attenuation y linear
+			3,4 change attenuation z quad
+			-+  turn on/off light
+			5   -angle
+			6   +angle
+			0,9 change another light
+			L,K show/hide debugsphere
+			
+
+          

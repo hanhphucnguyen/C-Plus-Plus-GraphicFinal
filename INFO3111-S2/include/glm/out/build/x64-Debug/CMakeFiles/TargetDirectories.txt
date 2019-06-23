@@ -1,0 +1,2 @@
+C:/Users/Phuc-pc/source/repos/LordMichaelmort/INFO3111-S2019/INFO3111/INFO3111-S2/include/glm/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Phuc-pc/source/repos/LordMichaelmort/INFO3111-S2019/INFO3111/INFO3111-S2/include/glm/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

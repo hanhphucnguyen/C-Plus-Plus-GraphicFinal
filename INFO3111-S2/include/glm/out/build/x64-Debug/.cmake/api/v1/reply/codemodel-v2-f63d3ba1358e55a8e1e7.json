@@ -1,0 +1,38 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Phuc-pc/source/repos/LordMichaelmort/INFO3111-S2019/INFO3111/INFO3111-S2/include/glm/out/build/x64-Debug",
+		"source" : "C:/Users/Phuc-pc/source/repos/LordMichaelmort/INFO3111-S2019/INFO3111/INFO3111-S2/include/glm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

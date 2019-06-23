@@ -1,0 +1,43 @@
+*Change default cameraEye and Target
+	Line 30
+
+*Change others view cameraEye and Target   (C,M,N)
+	Line 235
+
+*Change Light position
+	Line 324
+
+*Change Light angleInner and angOuter (key shift+ 5-6)
+	Line 339
+
+*Change Light Atten and Quad
+	Line 325 (position 2,3)
+
+*Set light same position with object
+	Line 342
+
+*Change current object 
+	Line 315
+
+*Example animate
+	Line 381
+
+*Change the texture over time
+	Line 399
+
+*Height map
+	Line 694
+
+*Turnon/off debug light sphere
+	Line 39
+
+File LoadTheModel
+
+*Height map example 
+	Line 36
+*Asteroid example(very big object, no uv)
+	Line 72, Line 119
+*Spiderman example
+	Line 44, Line 128 (have uv)
+*Cow example
+	Line 84 (small object, no uv)
